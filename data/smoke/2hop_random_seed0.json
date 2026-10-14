@@ -1,0 +1,16 @@
+{
+ "example1": {
+  "test_example": {
+   "question": "Vumpuses are floral. Tumpuses are wumpuses. Dumpuses are rompuses. Impuses are happy. Every numpus is blue. Wumpuses are impuses. Every yumpus is not opaque. Jompuses are zumpuses. Jompuses are sour. Vumpuses are jompuses. Every rompus is small. Tumpuses are not wooden. Every numpus is a dumpus. Wumpuses are cold. Every rompus is a vumpus. Dumpuses are opaque. Each impus is a numpus. Sam is a numpus.",
+   "query": "True or false: Sam is opaque.",
+   "chain_of_thought": [
+    "Sam is a numpus.",
+    "Every numpus is a dumpus.",
+    "Sam is a dumpus.",
+    "Dumpuses are opaque.",
+    "Sam is opaque."
+   ],
+   "answer": "True"
+  }
+ }
+}

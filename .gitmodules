@@ -1,0 +1,4 @@
+[submodule "third_party/prontoqa"]
+	path = third_party/prontoqa
+	url = https://github.com/asaparov/prontoqa.git
+	branch = v1
