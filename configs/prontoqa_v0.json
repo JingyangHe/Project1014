@@ -1,0 +1,19 @@
+{
+  "schema_version": "prontoqa-derived-v0",
+  "seed": 10142026,
+  "upstream_path": "third_party/prontoqa",
+  "upstream_commit": "066f73fc70bfaa92ed2476fd3c41b4951ad6e63a",
+  "hops": [1, 2, 3, 4, 5],
+  "pools": {"smoke": 20, "calibration": 200, "heldout": 200},
+  "diagnostic_families_per_hops": 50,
+  "max_attempts_per_pool_hops": 30000,
+  "source_concepts_per_attempt": 10,
+  "name_groups": {
+    "A": ["Nora", "Liam", "Alice", "James"],
+    "B": ["Emma", "Noah", "Sarah", "David"]
+  },
+  "concepts": ["wumpus", "yumpus", "zumpus", "dumpus", "rompus", "numpus", "tumpus", "vumpus", "impus", "jompus", "timpus", "yimpus", "carpus", "shumpus", "zhompus", "rempus", "fompus", "fimpus", "terpus", "gerpus", "sterpus", "kerpus", "sherpus", "perpus"],
+  "properties": ["green", "blue", "red", "brown", "orange", "small", "large", "metallic", "wooden", "luminous", "liquid", "transparent", "opaque", "nervous", "happy", "feisty", "shy", "bright", "dull", "sweet", "sour", "spicy", "bitter", "floral", "fruity", "earthy", "hot", "cold", "temperate", "kind", "mean", "angry", "amenable", "aggressive"],
+  "render_styles": [0, 1, 2],
+  "sampling": {"correlations": [0.5, 0.9], "true_name_group": "A", "false_name_group": "B"}
+}

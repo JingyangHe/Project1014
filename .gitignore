@@ -1,0 +1,23 @@
+# Generated datasets and execution artifacts (the historical tracked smoke sample stays).
+/data/prontoqa_v0/
+/runs/
+/logs/
+/work/
+/outputs/
+slurm-*.out
+*.log
+
+# Python, tools and environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+envs/
+.conda/
+.env
+.DS_Store

@@ -1,0 +1,4 @@
+# Python 3.12.15; reuse the existing HiPerGator envs/opd environment.
+# Git and Bash/Slurm are runtime tools, not Python package dependencies.
+numpy==2.2.6
+scipy==1.15.3
